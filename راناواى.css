@@ -1,0 +1,15 @@
+/* Add custom CSS styles below */ 
+.app-inner section{
+    margin-bottom:5%;
+}
+.main_banner .slider_content{
+    margin-right:auto !important;
+    grid-column: span 3 / span 3;
+    width:400px;
+}
+@media(max-width:768px){
+.main_banner .slider_content{
+        width:200px;
+
+}
+}

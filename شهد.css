@@ -1,0 +1,30 @@
+section.SH-hero-0.SH-hero.py-4.relative.overflow-hidden {
+background-image: url("https://cdn.files.salla.network/homepage/891325157/4c33e409-c340-4ce0-96e6-0fd050c43b2d.webp");
+margin-bottom:60px;
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.absolute.top-0.left-0.w-full.h-full.object-bottom.pointer-events-none.z-0 {
+    background-color:transparent !important;
+}
+
+
+.w-full.md\:w-1\/2.pt-7.text-center.md\:text-end.self-start {
+    color:white;
+    align-self:center;
+    
+}
+.w-full.h-full.md\:w-1\/2.flex.items-center.justify-center.md\:justify-start.sm\:pt-\[51px\] {
+    display:none;
+}
+
+.container.content-wrapper.flex.items-start.justify-between.flex-wrap.pt-0.z-\[2px\].relative.gap-6.sm\:gap-0.flex-row-reverse {
+    margin-top: 150px;
+    margin-left:100px;
+}
+a.inline-block.sm\:py-3.py-2.px-7.sm\:px-7.mt-2.text-sm.border.sm\:text-xl.rounded-\[4px\].cursor-pointer {
+    background-color:  #BDA631 !important;
+    border:none;
+}

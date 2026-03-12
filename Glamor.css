@@ -1,0 +1,83 @@
+.landing-page-first-banner .item-text h1{
+    font-size:58px !important;
+}
+.landing-page-first-banner .item-text p{
+    font-size:28px !important;
+}
+.landing-page-first-banner:nth-of-type(1) .item-text {
+    background-color:#FBF8F682;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:1px 1px 6px #00000061;
+}
+
+/*title image*/
+.image-title h1 {
+    background-color:transparent !important;
+    color:white !important;
+}
+.image-title{
+    background-color:#F6E6FF!important;
+    padding:5px;
+    border-radius:50px;
+}
+
+/*button color*/
+section.banner_ad a{
+    background:#7c1d16;
+}
+
+.landing-page-first-banner .item-text  img{
+    display:none ;
+}
+section.landing-page-first-banner .container{
+    max-width:100% !important;
+}
+
+section.landing-page-first-banner .item-text{
+    padding:0px 70px 0px 70px !important;
+    height:200px !important;
+    justify-content:center !important;
+}
+section.landing-page-first-banner .item-text h1{
+    text-shadow:0 6px 9px rgb(0 0 0 / 66%);
+}
+@media(min-width:768px){
+    .g_cat .grid{
+    grid-template-columns:repeat(8, minmax(0, 1fr)) !important;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Add custom CSS styles below */ 
+
+.landing-page-first-banner .item-text h1{
+    font-size:58px !important;
+}
+.landing-page-first-banner .item-text h1{
+    font-size:58px !important;
+}
+.landing-page-first-banner .item-text p{
+    font-size:28px !important;
+}
+.landing-page-first-banner:nth-of-type(6) .item-text a{
+    border:solid;
+    border-width:1px;
+}
+
+@media(max-width:768px){
+    .landing-page-first-banner .item-text h1{
+    font-size:38px !important;
+      text-shadow: 0 2px 2px black;
+        
+}
+}

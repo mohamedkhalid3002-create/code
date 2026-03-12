@@ -1,0 +1,29 @@
+section.Alo__main .swiper-slide-visible  .flex.flex-center{
+    background-color:;
+    background:url("https://cdn.files.salla.network/homepage/1782902894/7d8fc6ad-6263-4fba-b8b1-86748f1734dd.webp");
+    background-repeat:no-repeat;
+    background-size:cover;
+    justify-content:end;
+} 
+section.al-categories .swiper-wrapper img{
+    width: 100%;
+    max-height: 100%;
+    height: 100% ;
+    position:absolute;
+    top:20px;
+}
+
+
+
+section.al-categories .swiper-wrapper h3
+, section.al-categories .swiper-wrapper p{
+    z-index:9;
+}
+.al-categories .category_card::after{
+    position:relative;
+}
+
+
+section.Al_products-and-stories .story-slide-inactive   {
+opacity: 1.65;
+}

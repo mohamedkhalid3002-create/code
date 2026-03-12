@@ -1,0 +1,49 @@
+/*products slider*/
+@media(max-width:768px){
+    .products.content-wrap.product-archive {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        gap: 15px;
+        scrollbar-width: none; 
+    }
+    .products.content-wrap.product-archive .entry.content-bg{
+        width: 300px;
+        flex: 0 0 300px;   
+    }
+}
+.titel-head{
+  background: linear-gradient(to left, #f39c12, #1b8a5a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.4;   /* مهم */
+  padding-bottom: 10px; /* يمنع القص */
+}
+
+
+.serves-card p ,
+.serves-card a{
+  opacity: 0;
+  transition: 0.9s;
+ }
+.serves-card:hover p ,
+.serves-card:hover a{
+  opacity: 1;
+}
+.serves-card .elementor-icon-wrapper ,
+.serves-card h2 {
+  transition: 0.5s;
+}
+.serves-card:hover .elementor-icon-wrapper{
+  transform: translateX(40%);
+}
+.serves-card:hover h2{
+  transform: translateX(10%);
+}
+
+
+
+
+.scroll-img-a .swiper-wrapper{
+    transition-timing-function: linear !important;
+}

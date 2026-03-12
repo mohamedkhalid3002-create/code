@@ -1,0 +1,152 @@
+.s-block--photos-slider {
+  margin-top:0 !important;
+  margin-bottom:50px;
+}
+.s-block--photos-slider .swiper-slide-active{
+    padding:0 !important;
+    margin:0 !important; 
+}
+.s-block--photos-slider .s-slider-container {
+    padding:0 !important;
+    margin:0 !important;
+}
+.s-block--photos-slider .s-slider-container .swiper-slide {
+    width:100%;
+}
+.s-block--banners .grid-flow-row {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+button.s-slider-prev.s-slider-nav-arrow.swiper-button-disabled.swiper-button-lock {
+    visibility: hidden;
+}
+
+button.s-slider-next.s-slider-nav-arrow.swiper-button-disabled.swiper-button-lock {
+    visibility: hidden;
+}
+a.banner-entry.square-photos {
+    grid-row: span 1 / span 2 !important;
+    background-color:transparent
+}
+section#best-offers-2-slider {
+    margin-bottom: 50px;
+}
+.s-block--banners .right-side{
+    width:150vw;
+    background-color:#d4bb97;
+    padding:20px;
+     margin-left: -350px;
+     margin-right: -350px;
+}
+.s-block--banners .right-side h2{
+    text-align: center;
+    font-size:48px;
+    color:white;
+}
+.s-slider-block__title .s-slider-block__title-left{
+    display:none;
+}
+.s-block--fixed-banner img{
+    background-color:transparent;
+}
+.s-slider-block__title .s-slider-block__title-right{
+    margin:auto;
+    background-color:#D0AC7FD1;
+    height:85px;
+    display:flex;
+    border-radius:9px;
+    display:flex;
+    padding-left:30px;
+    padding-right:30px;
+  
+}
+.s-slider-block__title .s-slider-block__title-right h2{
+   align-content:center;
+    justify-content:center;
+    padding-left:0;
+    font-size:40px;
+    color:white;
+}
+[class^=sicon-], [class*=" sicon-"] {
+
+    border-color: #b89669;
+}
+.sicon-user-circle:before , .sicon-shopping-bag:before{
+    color: #be9b6d;
+}
+div#mainnav {
+    background: #000;
+}
+nav#mobile-menu {
+    color: #ba9a5d;
+    margin-right: 300px;
+}
+
+
+
+
+@media (max-width:768px){
+  .s-block--banners .grid-flow-row {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+  a.banner-entry.square-photos {
+    grid-column: span 2;
+}
+  a.banner-entry.square-photos:nth-of-type(4) {
+    grid-column: 2/4;
+}
+  .banner-entry {
+
+    height: 115px;
+ 
+  }
+  
+.s-slider-block__title .s-slider-block__title-right{
+    height:55px;
+}
+
+.s-slider-block__title .s-slider-block__title-right h2{
+    font-size:20px;
+}
+  .s-block--banners .right-side{
+    width:100vw;
+     margin-left: -10px;
+     margin-right: -10px;
+}
+  .s-block--banners .right-side h2{
+    font-size:20px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

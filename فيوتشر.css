@@ -1,0 +1,149 @@
+div#mainnav a.navbar-brand img{
+    width:100px;
+    min-height:100px !important;
+}
+header.store-header.z-2 {
+    position: static;
+}
+.main-panner-0 div.flex{
+    justify-content:end !important;
+    align-items:center;
+}
+.main-panner-0 .flex {
+   padding-bottom:0rem;
+}
+
+.main-panner-0 div.flex  div.max-w-\[70\%\].md\:max-w-\[55\%\].text-center.flex.flex-col.items-center.p-3.md\:p-5 {
+   background-color:#00000075;
+   height:300px;
+   justify-content:center !important;
+   padding:50px;
+}
+.main-panner-0 div.flex h1 , .main-panner-0 div.flex p{
+    color:white;
+   width:550px;
+}
+.main-cc .relative.swiper-slide button{
+    border:none;
+}
+.main-cc .relative.swiper-slide h1{
+    padding:0 30px  0 30px ;
+    line-height:50px;
+    text-align:center
+}
+.tow-card h1{
+    font-size:18px !important;
+}
+.tow-card .absolute{
+    width:100%;
+    left:0;
+    position: absolute !important;
+    top: auto;
+    bottom: 0%;
+} 
+.tow-card button{
+    /* display: none; */
+    width: 100% !important;
+    margin: 0;
+    background-color:black;
+    border:none;
+}
+.p-4.max-w-full.lg\:max-w-\[70\%\].m-auto.border-b.border-b-\[var\(--m-color\)\].mb-4.flex.flex-col.gap-0.transition-all.container_accordion.sal-animate {
+    max-width: 100%;
+}
+@media(max-width:765px){
+    .main-cc .relative.swiper-slide h1{
+    font-size:10px;
+    padding:0 30px  0 30px ;
+    line-height:20px;
+    text-align:center;
+}
+   .main-panner-0 .head_img {
+   height:300px !important;      
+}
+   .main-panner-0 div.flex  div.max-w-\[70\%\].md\:max-w-\[55\%\].text-center.flex.flex-col.items-center.p-3.md\:p-5 {
+   height:200px;
+}
+   .main-panner-0 div.flex p{
+    display:none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div#et-main-area .et-l--body .et_pb_column:nth-of-type(2) {
+    background-color:white;
+    padding:0;
+    width:100%;
+    border-radius:0;
+    position:relative;
+    
+}
+div#et-main-area .et-l--body .et_pb_row_0_tb_body:nth-of-type(1) {
+    padding-top:0 !important;
+    padding:0;
+    width: 100%;
+    max-width:100% !important;
+    margin:0;
+    border-radius:0;
+}
+.et_pb_section.et_pb_section_0_tb_body.et_pb_section_parallax.et_section_regular {
+    padding:0;
+    
+}
+.et_pb_section.et_pb_section_1_tb_body.et_pb_with_background.et_section_regular {
+    display:none;
+}
+
+.et_pb_section.et_pb_section_3_tb_body.et_pb_fullwidth_section.et_section_regular {
+    display:none;
+}

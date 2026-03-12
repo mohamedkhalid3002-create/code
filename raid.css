@@ -1,0 +1,256 @@
+/*badg color*/
+body#app {
+    background-color:#F6E3C8;
+}
+#mainnav{
+    background-color:#F6E3C8;
+}
+.top-navbar{
+    display:none;
+}
+
+
+/*nave pare transparent*/
+div#mainnav {
+  position: fixed;
+  top: 30px;
+  width: 95%;
+  background: transparent;
+  z-index: 1000;
+  min-height:50px !important;
+  box-shadow:0 0 0 #b0c0d500;
+  justify-self:center;
+}
+div#mainnav .inner.bg-inherit{
+  background: #1946AB2E;
+  border-radius:10px !important;
+  padding: 0 20px 0 20px ;
+}
+.store-header .top-navbar{
+  display:none;
+}
+
+
+/*logo large*/
+div#mainnav a.navbar-brand img{
+    width:100px;
+    min-height:100px !important;
+}
+
+
+/*photos slider full width */
+section.s-block--photos-slider .swiper{
+    padding:0;
+}
+section.s-block--photos-slider .swiper .swiper-slide{
+    padding:0;
+    width:100%;
+}
+section.s-block.s-block--photos-slider {
+    margin-top:0;
+}
+section.s-block--photos-slider  button.s-slider-nav-arrow.swiper-button-disabled.swiper-button-lock {
+    visibility:hidden;
+}
+
+
+/*transparent to img*/
+ .s-block--fixed-banner img ,
+ .s-block--banners .grid .banner-entry {
+    background-color:transparent !important;
+}
+
+/*element list */
+.s-block--banners > .grid a.banner-entry {
+        grid-row: span 1 / span 2 ;
+}
+@media(min-width:768px){
+   .s-block--banners > .grid {
+        grid-template-columns:repeat(5, minmax(0, 1fr));
+    } 
+}
+@media(max-width:768px){
+    .s-block--banners > .grid {
+        grid-template-columns:repeat(3, minmax(0, 1fr));
+    }
+}
+
+
+/*cerate logo*/
+.store-footer .lg\:col-span-2.rtl\:lg\:pl-20.ltr\:lg\:pr-20{
+    justify-items:center;
+    text-align:center;
+}
+.store-footer .lg\:col-span-2.rtl\:lg\:pl-20.ltr\:lg\:pr-20 h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.store-footer .lg\:col-span-2.rtl\:lg\:pl-20.ltr\:lg\:pr-20 h3::before{
+    content: "";
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background-image: url("https://cdn.files.salla.network/homepage/171031781/2608dd21-ff50-49ee-b77c-1acd0bfa12af.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+
+/*--------products--------*/
+.s-block--best-offers.container .s-products-slider-card {
+   height:400px !important;
+}
+.s-block--best-offers.container .s-product-card-entry{
+   background-color:#f9f6ed;
+}
+.s-block--best-offers.container button{
+   background-color:#B87332;
+   color:white;
+}
+/*-------footer--------*/
+.store-footer__inner {
+    background-color: #45693F !important;
+    color:white !important;
+}
+.md\:flex.items-center.justify-between.py-4.container.text-center {
+    background-color: #45693F !important;
+    margin: 0;
+    max-width: 100% !important;
+}
+.md\:flex.items-center.justify-between.py-4.container.text-center p{
+    color:white;
+}
+
+
+
+
+
+
+/*chang background & add background*/
+.s-block--banners .right-side{
+    padding-top:0px !important;
+    padding-left:0;
+    margin:auto;
+    background-image:url("https://cdn.files.salla.network/homepage/1830136221/17076faf-8be5-418f-a832-7613b0828ec2.webp");
+    max-width:100% !important;
+    height: 100px;
+    width: 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+
+
+
+/*------nav pare--------*/
+@media(min-width:1025px){
+    #mainnav {
+   height:120px !important; 
+}
+#mainnav .inner.bg-inherit{
+    position:relative;
+}
+#mainnav .items-stretch{
+    display:flex;
+    justify-content: start !important;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+#mainnav .items-center:nth-last-of-type(2){
+    width:55% ;
+    justify-content: space-between !important;
+}
+#mobile-menu{
+    background-color:#4D6B4E;
+    color:white;
+    border-radius:0 10px  10px 0;
+    padding-left:70px;
+    padding-right:20px;
+    height:90px !important;
+}
+#mainnav .items-stretch .items-center.justify-end {
+    background-color:#4D6B4E;
+    margin:0;
+    padding:5px;
+    border-radius: 10px  0 0 10px ;
+    padding-left:70px;
+}
+#mainnav .items-stretch .items-center.justify-end i{
+        filter: invert(1) brightness(2);
+}
+}
+
+div#mainnav a.navbar-brand img{
+    width:200px;
+    min-height:200px !important;
+}
+.items-stretch > .items-center.justify-end {
+    align-self: center !important; 
+    height: 90px !important;
+}
+
+
+
+
+
+
+
+@media(max-width:768px){
+	div#slider-con {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+}
+	div#slider-con > div{
+		min-width:250px;
+	}
+
+}
+
+
+
+
+
+
+
+/*------grid-------*/
+@media (min-width :768px){
+   .s-block--banners > .grid {
+        grid-template-rows:repeat(5, minmax(0, 1fr));
+       height:900px;
+    } 
+    .s-block--banners > .grid a.banner-entry:nth-of-type(5){
+        grid-row: span 3 !important;
+        height:100% !important;
+        display:non;
+    }
+    .s-block--banners > .grid a.banner-entry:nth-of-type(2) ,
+    .s-block--banners > .grid a.banner-entry:nth-of-type(4) ,
+    .s-block--banners > .grid a.banner-entry:nth-of-type(6){
+        grid-row: span 3 !important;
+        height:100% !important;
+        display:non;
+    }
+    .s-block--banners > .grid a.banner-entry:nth-of-type(3) {
+        grid-row: span 2 !important;
+        height:100% !important;
+        display:non;
+    }
+}
+@media (max-width: 768px){
+    .s-block--banners > .grid a.banner-entry {
+        grid-row: span 1 / span 2  !important;
+    }
+    .s-block--banners > .grid {
+        grid-template-columns:repeat(3, minmax(0, 1fr));
+    }
+    .s-block--banners > .grid a.banner-entry:nth-of-type(5){
+        order:3;
+    }
+}

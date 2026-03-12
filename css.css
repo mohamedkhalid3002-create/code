@@ -1,0 +1,27 @@
+/*transform black to white*/
+.store-footer__inner.da-bgm .logo-light{
+    filter: invert(1) brightness(2);
+}
+.store-footer__inner *{
+    color:white;
+}
+
+
+
+
+
+/*const changeName = { companyName: "شركة عوائد", companyUrl: "https://awaeed.com/" };
+
+const selectText = document.querySelector(".copyright-text a"); 
+selectText.innerText = changeName.companyName; 
+selectText.href = changeName.companyUrl;*/
+
+
+
+
+
+
+
+
+
+

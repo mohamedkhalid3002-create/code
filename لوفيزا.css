@@ -1,0 +1,13 @@
+.banner-tow .absolute{
+    width:100% !important;
+    left:auto;
+    top:100%;
+    bottom:0;
+}
+.banner-tow button{
+    width:100% !important;
+    border-color:white;
+}
+.banner-tow *{
+    color:white !important;
+}
